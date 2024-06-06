@@ -16,7 +16,7 @@ Sobre si es predecible, en el caso de sinHilos.py puede ser más facil de predec
 
 b) Al comparar los tiempos de ejecución con un compañero, los resultados fueron muy idénticos, a pesar de las diferencias entre ambos equipos.
 
-c) Sumaresta tarda de media 0.2 segundos, al sacar los comentarios se agrego mas código ejecutable, entre ellos dos FOR, donde el programa tardó más en ejecutarse, esta vez con una media de 7.3
+c) Lo que pasó fue que volvimos a activar la línea que cambiaba el acumulador, y eso causó un error debido a que se estaba usando un recurso compartido. Este problema se volvió más notorio con los ciclos for, lo que hizo que el programa se ejecutara mucho más lento, con un tiempo promedio de 7.3.
 
 2) a) b) c)
 
